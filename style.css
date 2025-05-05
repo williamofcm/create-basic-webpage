@@ -2,3 +2,41 @@
     border: 0;
     margin: 0;
 }
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+nav{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 2em;
+    cursor: default;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    cursor: pointer;
+    display: inline;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+li:hover{
+    color: #bcbcbc;
+}
