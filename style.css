@@ -35,8 +35,63 @@ li{
     display: inline;
     font-weight: bold;
     transition: 0.3s ease;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 li:hover{
-    color: #bcbcbc;
+    background-color: #b2c226;
+    color: #333;
+    transition: 0.3s ease;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 50vh;
+    height: auto;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="confirm-password"]{
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: .5rem;
+    background-color: #333;
+    color: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: #e3f02d;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover{
+    background-color: #b2c226;
+}
+
+.login-navbutton{
+    background-color: #e3f02d;
+    color: #333;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
